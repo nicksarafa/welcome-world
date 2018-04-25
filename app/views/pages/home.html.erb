@@ -1,0 +1,13 @@
+<h1>WELCOME HOME</h1>
+
+<%= Time.now %>
+
+<% categories = ['sushi', 'mexican', 'italian'] %>
+
+<ul>
+	<% categories.each do |category| %>
+		<li>
+			<%= category %>
+		</li>
+	<% end %>
+</ul>
